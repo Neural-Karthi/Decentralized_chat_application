@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.addbtn{
+    position:absolute;
+    margin-top: -3vw;
+    height: 2.75vw;
+    width: 12vw;
+    left: 14.2%;
+    text-align: left;
+    border:none ;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.addimg{
+    width: 2.5vw;
+}
+.newtext{
+    margin-top: .3vw;
+    margin-left: .4vw;
+    font-size: .75vw;
+    font-family: "Rubik", sans-serif;
+}

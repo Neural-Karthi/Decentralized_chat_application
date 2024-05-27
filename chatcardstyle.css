@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.card_outer{
+    height: 4.1vw;
+    display: flex;
+    align-items: center;
+}
+.image_outer_box{
+    text-align: right;
+    width: 6.5vw;
+}
+.userimg{
+    width: 3vw;
+}
+.usernametitle{
+    margin-top: .45vw;
+    font-family: "Rubik", sans-serif;
+    margin-left: 1vw;
+    width: 17vw;
+    text-align: left;
+}
+.card_outer:hover{
+    background-color: rgb(216, 245, 255);
+    cursor: pointer;
+    border-radius: .3vw;
+}
+.addfriendform{
+    width: 26vw;
+    height: 16.3vw;
+    position: absolute;
+    top: 12.5vw;
+    left: 35vw;
+    background-color: white;
+    border-radius: .3vw;
+    border: none;
+}
+
+.innertitle{
+    margin-left: 7vw;
+    margin-top: .5vw;
+    font-family: "Rubik", sans-serif;
+}
+.inputdata{
+    height: 2.3vw;
+}
+.interactionbtn{
+    width: 6vw;
+    height: 2vw;
+    border: none; 
+    font-family: "Rubik", sans-serif;
+    border-radius: .3vw;
+}
+#closebtn{
+   margin-right:9.83vw;
+}
+#closebtn:hover{
+    background-color: rgb(255, 63, 63);
+    color: white;
+}
+#addbtn:hover{
+    background-color: rgb(119, 250, 43);
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.start_background{
+    width:95vw;
+    height: 40vw;
+    background-image: url("../images/Index_image.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #f0f3f4;
+    margin-top: 2vw;
+    border-radius: 2vw;
+    font-family: "Rubik", sans-serif;
+}
+.title_content{
+    position: absolute;
+    left: 10%;
+    top: 26%;
+    width: 20vw;
+    height: 18vw;
+    text-align: left;
+}
+.h1title{
+    font-size: 3.5vw;
+}
+.ptitle{
+    width: 18vw;
+    font-size: 0.8vw;
+    margin-top: -2vw;
+}
+.loginbtn{
+    width: 11vw;
+    height: 3vw;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    font-size: .8vw;
+    background-color: #e79c82;
+    color: white;
+    border-radius: 1vw;
+    position: absolute;
+    left: 10%;
+    top:60%;
+    cursor: pointer;
+}
+.loginbtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.textdataicons{
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 28%;
+    left: 35%;
+    text-align: left;
+}
+.image1,.image2{
+    width: 13vw;
+    opacity: 0;
+}
+.image2{
+    margin-left: 10vw;
+}
+#img1 {
+    animation: showImage 3s forwards;
+    animation-delay: 0s; /* Starts immediately */
+}
+
+#img2 {
+    animation: showImage 3s forwards;
+    animation-delay: 1s; /* Starts after 3 seconds */
+}
+
+#img3 {
+    animation: showImage 3s forwards;
+    animation-delay: 2s; /* Starts after 6 seconds */
+}
+
+#img4 {
+    animation: showImage 3s forwards;
+    animation-delay: 3s; /* Starts after 9 seconds */
+}
+
+#img5 {
+    animation: showImage 3s forwards;
+    animation-delay: 4s; /* Starts after 12 seconds */
+}
+
+#img6 {
+    animation: showImage 3s forwards;
+    animation-delay: 5s; /* Starts after 15 seconds */
+}
+
+@keyframes showImage {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.application_title{
+   position: absolute;
+   top: 2%;
+   left: 6%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.spancontent{
+    font-size: 1vw;
+}

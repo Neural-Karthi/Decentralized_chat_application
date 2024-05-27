@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.chart_side{
+   width: 45vw;
+   height: 38.4vw;
+   border-radius: 1vw;
+   border: 1px solid black;
+   z-index: 2;
+}
+.header_messages{
+    height: 4vw;
+    width: 45vw;
+
+    border-radius: 1vw;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    display: flex;
+    align-items: center;
+}
+.usernamecontent{
+    font-family: "Rubik", sans-serif;
+    font-size: 1.3vw;
+    width: 40vw;
+}
+.userkeydata{
+    margin-left: .1vw;
+    font-family: "Rubik", sans-serif;
+    font-size: 0.75vw;
+}
+.maincontainer{
+    display: flex;
+}
+.menubtn{
+    width: 1.5vw;
+    margin-left: .75vw;
+    cursor: pointer;
+}
+.usernametitle{
+    width: 40vw;
+}
+.icon_container{
+    width: 10vw;
+    margin-left: 21vw;
+}
+.userkeydata{
+    width: 30vw;
+}
+.mainmessagebox {
+    width: 44.8vw;
+    height: 30.5vw;
+    background-color: rgb(211, 240, 250);
+    padding: 1vw;
+    overflow-y: auto;
+}
+
+.main_card_design{
+    width: 16vw;
+    height: auto;
+    border-radius: .75vw;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    text-align: left;
+    padding: .7vw;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.data{
+    margin-top: .4vw;
+    font-family: "Rubik", sans-serif;
+    font-size: 0.75vw;
+}
+.card_outer_{
+    height: 4.1vw;
+    margin-top:1.25vw ;
+    display: flex;
+    align-items: center;
+}
+.SendMessage{
+    width: 40vw;
+    height: 3vw;
+    margin-top: 0.5vw;
+    text-align: left;
+}
+.messagedata{
+    width: 30vw;
+    height: 2.5vw;
+    border-radius: .3vw;
+    padding: .4vw;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    margin-left: 1.2vw;
+}
+.sendbtn{
+    width: 5vw;
+    height: 2.5vw;
+    font-family: "Rubik", sans-serif;
+    font-size: .8vw;
+    border-radius: .5vw;
+    margin-left:3vw;
+}
+span{
+   margin-top: .2vw;
+   font-size: .56vw;
+}
